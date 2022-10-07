@@ -335,13 +335,16 @@ hr {
   --btn-hover-clr: var(--clr-primary-900);
   --btn-hover-bg-clr: var(--clr-primary-100);
   --btn-hover-border-clr: var(--clr-primary-100);
+
+  --btn-padding: var(--size-100);
+  min-width: 4ch;
 }
 
-.input-group input[type=password] + .btn-password > .fa-eye-slash {
+.input-group input[type="password"] + .btn-password > .fa-eye-slash {
   display: none;
 }
 
-.input-group input[type=text] + .btn-password > .fa-eye {
+.input-group input[type="text"] + .btn-password > .fa-eye {
   display: none;
 }
 
