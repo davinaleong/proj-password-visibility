@@ -327,10 +327,6 @@ hr {
   background-color: var(--clr-primary-50);
 }
 
-/* .input-group .form-input {
-  background-color: var(--clr-primary-100);
-} */
-
 .input-group .btn.btn-input-group {
   --btn-clr: var(--clr-primary-900);
   --btn-bg-clr: var(--clr-primary-50);
@@ -339,6 +335,14 @@ hr {
   --btn-hover-clr: var(--clr-primary-900);
   --btn-hover-bg-clr: var(--clr-primary-100);
   --btn-hover-border-clr: var(--clr-primary-100);
+}
+
+.input-group input[type=password] + .btn-password > .fa-eye-slash {
+  display: none;
+}
+
+.input-group input[type=text] + .btn-password > .fa-eye {
+  display: none;
 }
 
 .input-group > *:not(:last-child) {
