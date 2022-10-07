@@ -66,7 +66,7 @@
   --clr-success-900: hsl(124, 55%, 24%);
 
   --clr-grey-50: hsl(0, 0%, 100%);
-  --clr-grey-100: hsl(0, 0%, 90%);
+  --clr-grey-100: hsl(0, 0%, 98%);
   --clr-grey-200: hsl(0, 0%, 80%);
   --clr-grey-300: hsl(0, 0%, 70%);
   --clr-grey-400: hsl(0, 0%, 60%);
@@ -501,6 +501,9 @@ hr {
   color: var(--clr-success-900);
 }
 
+.clr-grey-50 {
+  color: var(--clr-grey-50);
+}
 .clr-grey-100 {
   color: var(--clr-grey-100);
 }
@@ -657,6 +660,9 @@ hr {
   background-color: var(--clr-success-900);
 }
 
+.bg-grey-50 {
+  background-color: var(--clr-grey-50);
+}
 .bg-grey-100 {
   background-color: var(--clr-grey-100);
 }

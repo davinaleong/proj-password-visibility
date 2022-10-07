@@ -25,7 +25,7 @@
     ></script>
     <script defer type="module" src="./scripts/main.js"></script>
   </head>
-  <body class="clr-primary-900">
+  <body class="clr-primary-900 bg-grey-100">
     <main class="container container-grid | py-400">
       <h1 class="fs-800 mb-400">Password Visibility Example</h1>
 
@@ -59,6 +59,7 @@
                 type="email"
                 name="email"
                 id="email"
+                pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
                 placeholder="johndoe@example.com"
               />
             </div>
